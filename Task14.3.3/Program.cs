@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            //  создаём пустой список с типом данных Contact
+            // создаём пустой список с типом данных Contact
             var phoneBook = new List<Contact>();
 
             // добавляем контакты
@@ -19,7 +19,7 @@
             var sortPhoneBook = phoneBook.OrderBy(c => c.Name).ThenBy(c => c.LastName);
 
             ConsoleKeyInfo key = new ConsoleKeyInfo();
-            
+
             while (true)
             {
                 Console.Clear();
